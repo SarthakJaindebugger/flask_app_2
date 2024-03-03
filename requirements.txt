@@ -1,4 +1,5 @@
 speechbrain
+scikit-learn
 pydub
 huggingface_hub
 hyperpyyaml

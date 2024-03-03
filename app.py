@@ -44,7 +44,7 @@ except Exception as e:
     raise e
 
 # Load ML model from path (replace "your_model_path" with the actual path)
-your_model_path = "https://github.com/SarthakJaindebugger/flask_app_2/blob/main/lstm_xvector.h5"
+your_model_path = "lstm_xvector.h5"
 try:
     model = tf.keras.models.load_model(your_model_path)
     logger.info("Model loaded successfully.")

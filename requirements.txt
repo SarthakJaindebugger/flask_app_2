@@ -1,0 +1,20 @@
+speechbrain
+pydub
+huggingface_hub
+hyperpyyaml
+joblib
+numpy
+packaging
+pandas
+pre-commit
+pygtrie
+scipy
+sentencepiece
+SoundFile; sys_platform == 'win32'
+torch
+torchaudio
+tqdm
+transformers
+tensorflow
+Flask-Cors
+Flask

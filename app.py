@@ -24,7 +24,7 @@ app = Flask(__name__)
 
 CORS(app)  # Enable CORS for all routes
 
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = 'https://github.com/SarthakJaindebugger/flask_app_2/tree/main/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER  # Add this line
 
 
